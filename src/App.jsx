@@ -1,6 +1,6 @@
 
 import { useState } from 'react';
-import Hero from './components/Hero';
+import Hero from './components/Header';
 import SearchSection from './components/SearchSection';
 import Categories from './components/Categories';
 import FeaturedVendors from './components/FeaturedVendors';
