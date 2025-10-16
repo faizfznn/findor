@@ -1,27 +1,23 @@
-import Navbar from './components/Navbar';
+
+import { useState } from 'react';
 import Hero from './components/Hero';
-import VendorPromo from './components/VendorPromo';
-import FeaturedCategories from './components/FeaturedCategories';
+import SearchSection from './components/SearchSection';
+import Categories from './components/Categories';
 import FeaturedVendors from './components/FeaturedVendors';
 import Testimonials from './components/Testimonials';
-import CTA from './components/CTA';
+import CallToAction from './components/CallToAction';
 import Footer from './components/Footer';
 
-function App() {
+export default function App() {
   return (
-    <div className="bg-white text-gray-800">
-      <Navbar />
-      <main>
-        <Hero />
-        <VendorPromo />
-        <FeaturedCategories />
-        <FeaturedVendors />
-        <Testimonials />
-        <CTA />
-      </main>
+    <div className="min-h-screen bg-white">
+      <Hero />
+      <SearchSection />
+      <Categories />
+      <FeaturedVendors />
+      <Testimonials />
+      <CallToAction />
       <Footer />
     </div>
   );
 }
-
-export default App;
