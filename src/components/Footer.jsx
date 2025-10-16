@@ -1,3 +1,4 @@
+import '@fontsource/pacifico'; // npm install @fontsource/pacifico
 
 export default function Footer() {
   return (
@@ -7,7 +8,8 @@ export default function Footer() {
           {/* Company Info */}
           <div className="lg:col-span-1">
             <div className="mb-6">
-              <h3 className="text-2xl font-bold" style={{ fontFamily: '"Pacifico", serif' }}>
+              <h3 className="text-2xl font-bold " style={{ fontFamily: '"Pacifico", serif' }}>
+                
                 Findor.co
               </h3>
               <p className="text-gray-400 mt-4 leading-relaxed">
