@@ -1,19 +1,27 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import Button from './components/Elements/Button'
-import './App.css'
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import VendorPromo from './components/VendorPromo';
+import FeaturedCategories from './components/FeaturedCategories';
+import FeaturedVendors from './components/FeaturedVendors';
+import Testimonials from './components/Testimonials';
+import CTA from './components/CTA';
+import Footer from './components/Footer';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <Button></Button> 
-      </div>
-    </>
-  )
+    <div className="bg-white text-gray-800">
+      <Navbar />
+      <main>
+        <Hero />
+        <VendorPromo />
+        <FeaturedCategories />
+        <FeaturedVendors />
+        <Testimonials />
+        <CTA />
+      </main>
+      <Footer />
+    </div>
+  );
 }
 
-export default App
+export default App;
