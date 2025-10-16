@@ -146,5 +146,3 @@ export default function SearchSection() {
     </section>
   );
 }
-
-export default SearchSection;

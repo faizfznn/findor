@@ -1,6 +1,5 @@
-
 import { useState } from 'react';
-import Hero from './components/Header';
+import Hero from './components/Hero'; // Diperbaiki dari './components/Header'
 import SearchSection from './components/SearchSection';
 import Categories from './components/Categories';
 import FeaturedVendors from './components/FeaturedVendors';
